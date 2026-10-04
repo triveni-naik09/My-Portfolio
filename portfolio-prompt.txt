@@ -1,0 +1,169 @@
+Create Personal Portfolio Web Application
+
+Project Name
+
+Triveni Naik Portfolio
+
+Tech Stack
+
+Frontend: HTML, CSS, JavaScript, Tailwind CSS
+Backend: Node.js + Express.js
+Data: Simple JSON
+
+IMPORTANT 
+This Web App should be Deployable at Render
+
+Website Features
+
+Page 1: Home / Dashboard
+Show:
+- My photo
+- Triveni Naik
+- Electronics & Telecommunication Engineering Student
+- Short introduction
+- Resume button
+- Contact button
+- Social links
+
+Create attractive cards for:
+
+- Personal Information
+- Education
+- Skills
+- Projects
+- Certificates
+- Achievements
+- Experience
+- Contact
+
+When I click a card, open its separate dashboard/page.
+
+Personal Information
+
+Show:
+- Name : Triveni Kamlesh Naik
+- Course : B.Tech (Electronics and Telecommunication Engineering)
+- College : S.B. Jain Institute of technology, Management and Research, Nagpur.
+- Address : Naik talav, Bangladesh, Near police Station, Nagpur. 
+- Email : ntriveni959@gmail.com
+- Phone : 9699116908
+- LinkedIn : https://www.linkedin.com/in/triveni-naik-9273613a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- GitHub : https://github.com/triveni-naik09
+- About Me : I am Currently pursuing my B.tech in electronics and Telecommunication Engineering. I am a 3rd year student. I am Curious, Optimistic and a fast learner.
+
+Education
+Show my education in a professional timeline/card design.
+10th(SSC boards) : Securing 86.40% from Shri. Rajendra High School, Mahal, Nagpur
+12th(HSC boards) : Securing 75.17% from Smt. C.B. Adarsh Vidya Mandir, Nagpur
+Currently Doing B.Tech from S.B. Jain Institute of technology, Management and Research, Nagpur in Electronics and Telecommunication Engineering.
+
+Skills
+Show categories such as:
+- C language
+- MatLab
+- Proteus
+- JAVA 
+- Python
+- Embedded Systems
+- IoT
+
+Projects
+1. Traffic Light using Arduino, ESP8266, Raspberrypie, and AT89C51
+2. Automatic toll gate
+3. Smart Home Automation
+4. Leaf disease detection using Image processing
+5. temperature and humidity monitoring system and also web app to monitor real time data
+
+Certificates
+1. Advance social Pychology (NPTEL)
+2. Mental Health and Wellbeing (NPTEL)
+
+
+Experience
+1. 1 year Experience in working with FEETA Forum as a Joint PRO head.
+2. Currently serving as Treasurer in FEETA Forum.
+3. Also a placement Co-ordinator.
+
+Contact
+Show my:
+- Email : ntriveni959@gamil.com
+- Phone : 9699116908
+- LinkedIn : https://www.linkedin.com/in/triveni-naik-9273613a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- GitHub : https://github.com/triveni-naik09
+
+Also create a simple contact form.
+
+On header show Welcome to Triveni's portfolio in the center.
+
+On footer show Developed with love(Animated Heart Icon) by Triveni Naik. All rights reserved.
+
+Design
+
+Make the website:
+
+- Professional
+- Modern
+- Clean
+- Responsive
+- Mobile-friendly
+- Attractive
+
+Use:
+
+- Gradient colors
+- Modern cards
+- Smooth animations
+- Hover effects
+- Good fonts
+- Proper spacing
+
+Theme
+- Overall theme: Dark Burgundy / Deep Wine
+- Primary colors: deep maroon, burgundy, dark red
+- Accent colors: champagne, cream, soft peach, muted gold
+- Use elegant serif typography for large headings
+- Use clean modern sans-serif fonts for normal text
+- Large bold typography for the hero section
+- Minimal, sophisticated navigation
+- Premium card-based sections
+- Soft gradients and subtle shadows
+- Thin borders with muted gold/cream accents
+- Rounded but elegant buttons
+- Smooth hover effects and animations
+- Large professional profile photo integrated into the hero section
+- Use decorative floral/abstract elements subtly in the background
+- Spacious layout with strong visual hierarchy
+- Avoid bright/neon colors
+- Avoid a typical "college project" appearance
+
+Add:
+
+Light/Dark mode toggle
+
+Keep all major colors in one CSS section so I can easily change the theme myself.
+
+---
+
+Customization
+
+Responsive
+
+The website must work properly on:
+
+- Mobile
+- Tablet
+- Laptop
+- Desktop
+
+Resume
+
+Add:
+
+Download Resume
+
+button.
+
+I should be able to replace the PDF with my own resume.
+
+
+Make the project GitHub-ready and Render-deployable.

@@ -1,0 +1,349 @@
+{
+  "profile": {
+    "name": "Triveni Kamlesh Naik",
+    "displayName": "Triveni Naik",
+    "title": "Electronics & Telecommunication Engineering Student",
+    "subtitle": "3rd Year B.Tech | S.B. Jain Institute of Technology, Nagpur",
+    "avatar": "/images/profile.jpg",
+    "about": "I am currently pursuing my B.Tech in Electronics and Telecommunication Engineering. I am a 3rd year student. I am Curious, Optimistic and a fast learner.",
+    "shortBio": "Curious, optimistic, and an agile fast learner passionate about Embedded Systems, IoT, and Next-Gen Electronics. Dedicated to building innovative real-world hardware & software solutions.",
+    "email": "ntriveni959@gmail.com",
+    "phone": "9699116908",
+    "phoneDisplay": "+91 96991 16908",
+    "address": "Naik talav, Bangladesh, Near police Station, Nagpur.",
+    "city": "Nagpur, Maharashtra, India",
+    "college": "S.B. Jain Institute of technology, Management and Research, Nagpur.",
+    "course": "B.Tech (Electronics and Telecommunication Engineering)",
+    "year": "3rd Year",
+    "linkedin": "https://www.linkedin.com/in/triveni-naik-9273613a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "https://github.com/triveni-naik09",
+    "resumeUrl": "/assets/Triveni_Naik_Resume.pdf"
+  },
+  "dashboardCards": [
+    {
+      "id": "personal-info",
+      "title": "Personal Information",
+      "subtitle": "Bio, Identity & Location",
+      "icon": "user",
+      "badge": "Profile",
+      "stat": "Nagpur, MH",
+      "description": "Comprehensive background, academic institution, contact coordinates, and personal bio."
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "subtitle": "Academic Journey & Scores",
+      "icon": "graduation-cap",
+      "badge": "Academic",
+      "stat": "B.Tech (3rd Yr)",
+      "description": "Continuous academic track record across SSC (86.40%), HSC (75.17%), and B.Tech."
+    },
+    {
+      "id": "skills",
+      "title": "Technical Skills",
+      "subtitle": "Languages & Hardware",
+      "icon": "cpu",
+      "badge": "7+ Domains",
+      "stat": "Hardware + Code",
+      "description": "Proficiency in C, Java, Python, Proteus, MATLAB, Embedded Systems, and IoT."
+    },
+    {
+      "id": "projects",
+      "title": "Featured Projects",
+      "subtitle": "IoT & Embedded Solutions",
+      "icon": "code",
+      "badge": "5 Highlights",
+      "stat": "5 Systems",
+      "description": "Innovative hands-on systems spanning microcontrollers, sensor telemetry, and image processing."
+    },
+    {
+      "id": "certificates",
+      "title": "Certifications",
+      "subtitle": "NPTEL & Professional",
+      "icon": "award",
+      "badge": "NPTEL Certified",
+      "stat": "2 Certs",
+      "description": "Accredited credentials in Advance Social Psychology and Mental Health & Wellbeing."
+    },
+    {
+      "id": "achievements",
+      "title": "Key Achievements",
+      "subtitle": "Leadership & Academics",
+      "icon": "trophy",
+      "badge": "Distinction",
+      "stat": "Leadership & Merit",
+      "description": "Placement coordinator appointment, forum leadership, and high scholastic standing."
+    },
+    {
+      "id": "experience",
+      "title": "Experience & Roles",
+      "subtitle": "FEETA Forum & Placement",
+      "icon": "briefcase",
+      "badge": "3 Key Positions",
+      "stat": "Treasurer & Lead",
+      "description": "Proven leadership as FEETA Treasurer, Joint PRO Head, and Placement Coordinator."
+    },
+    {
+      "id": "contact",
+      "title": "Contact & Connect",
+      "subtitle": "Let's Collaborate",
+      "icon": "send",
+      "badge": "Open to Roles",
+      "stat": "Quick Response",
+      "description": "Get in touch via email, phone, LinkedIn, or the built-in direct message channel."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Electronics and Telecommunication Engineering",
+      "institution": "S.B. Jain Institute of technology, Management and Research, Nagpur.",
+      "period": "2023 - Present (Currently 3rd Year)",
+      "score": "Pursuing (3rd Year)",
+      "badge": "Current Degree",
+      "highlights": [
+        "Core domains: Embedded Systems, IoT, Signals & Systems, Microcontrollers",
+        "Active member and Treasurer of FEETA Forum",
+        "Institute Placement Co-ordinator"
+      ]
+    },
+    {
+      "degree": "12th Standard (HSC Boards)",
+      "institution": "Smt. C.B. Adarsh Vidya Mandir, Nagpur",
+      "period": "Completed",
+      "score": "75.17%",
+      "badge": "Distinction",
+      "highlights": [
+        "Specialized in Science stream with Physics, Chemistry, and Mathematics",
+        "Built solid foundational analytical and problem-solving skills"
+      ]
+    },
+    {
+      "degree": "10th Standard (SSC Boards)",
+      "institution": "Shri. Rajendra High School, Mahal, Nagpur",
+      "period": "Completed",
+      "score": "86.40%",
+      "badge": "High Honors",
+      "highlights": [
+        "Secured outstanding 86.40% aggregate in Maharashtra State Board",
+        "Consistent academic excellence and leadership in school activities"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "C Language",
+      "category": "Programming Languages",
+      "level": "Advanced",
+      "icon": "code-2",
+      "description": "Low-level system logic, pointer arithmetic, memory structures, and embedded microcontrollers."
+    },
+    {
+      "name": "JAVA",
+      "category": "Programming Languages",
+      "level": "Intermediate",
+      "icon": "coffee",
+      "description": "Object-oriented software development, data abstractions, and application logic."
+    },
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "level": "Intermediate",
+      "icon": "terminal",
+      "description": "Scripting, algorithm scripting, image processing with OpenCV, and data telemetry."
+    },
+    {
+      "name": "Embedded Systems",
+      "category": "Hardware & Systems",
+      "level": "Advanced",
+      "icon": "cpu",
+      "badge": "Specialty",
+      "description": "Arduino, ESP8266, AT89C51, Raspberry Pi interfacing, timers, interrupts, and GPIOs."
+    },
+    {
+      "name": "IoT (Internet of Things)",
+      "category": "Hardware & Systems",
+      "level": "Advanced",
+      "icon": "wifi",
+      "badge": "Specialty",
+      "description": "Sensors, Wi-Fi modules, telemetry, web dashboards, and remote actuator triggers."
+    },
+    {
+      "name": "MatLab",
+      "category": "Simulation & Tools",
+      "level": "Intermediate",
+      "icon": "activity",
+      "description": "Signal processing, mathematical computation, matrix manipulations, and simulation models."
+    },
+    {
+      "name": "Proteus",
+      "category": "Simulation & Tools",
+      "level": "Advanced",
+      "icon": "sliders",
+      "badge": "Design & EDA",
+      "description": "Electronic circuit simulation, PCB schematic capture, and virtual microcontroller debugging."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Traffic Light Controller System",
+      "category": "Embedded Systems",
+      "technologies": ["Arduino", "ESP8266", "Raspberry Pi", "AT89C51", "Proteus"],
+      "summary": "Multi-controller traffic synchronization system utilizing Arduino, ESP8266, Raspberry Pi, and classic AT89C51 microcontroller.",
+      "description": "Developed and compared comprehensive traffic light control architectures across 4 distinct microcontrollers: Arduino Uno, ESP8266 Wi-Fi module, Raspberry Pi SBC, and AT89C51 8051-core. Designed timer state machines, density-based signal priority logic, and real-time Proteus circuit simulations.",
+      "highlights": [
+        "Tested multi-platform controller responses for traffic intersection sequencing",
+        "Integrated AT89C51 assembly/C code and Arduino C++ timers",
+        "Demonstrated wireless synchronization over ESP8266"
+      ],
+      "icon": "traffic-light"
+    },
+    {
+      "id": 2,
+      "title": "Automatic Toll Gate",
+      "category": "IoT & Automation",
+      "technologies": ["Arduino", "IR Sensors / RFID", "Servo Motor", "Embedded C"],
+      "summary": "Automated vehicle detection and toll booth barrier system with contactless triggering and secure gate pass mechanics.",
+      "description": "Engineered an automated toll gate management model incorporating obstacle and proximity detection sensors with high-torque micro-servo motor barrier actuation. Streamlines throughput and reduces transit queuing times.",
+      "highlights": [
+        "Instant proximity sensing and automated barrier gate actuation",
+        "Debounce and fail-safe safety timers to avoid barrier obstruction",
+        "Efficient low-power embedded control loop"
+      ],
+      "icon": "git-commit"
+    },
+    {
+      "id": 3,
+      "title": "Smart Home Automation",
+      "category": "IoT & Automation",
+      "technologies": ["ESP8266 / NodeMCU", "Relay Modules", "Wi-Fi Telemetry", "Web Interface"],
+      "summary": "Remote wireless appliance control and monitoring system over Wi-Fi with web-based triggers.",
+      "description": "Implemented an Internet-of-Things smart home ecosystem enabling users to wirelessly toggle and schedule home appliances (lights, fans, systems) via a local network and responsive web interface using ESP8266 and multi-channel optocoupler relays.",
+      "highlights": [
+        "Multi-relay switching with electrical isolation and protection",
+        "Responsive web dashboard control from any smartphone or laptop",
+        "Real-time feedback on appliance operational state"
+      ],
+      "icon": "home"
+    },
+    {
+      "id": 4,
+      "title": "Leaf Disease Detection using Image Processing",
+      "category": "Machine Learning & Vision",
+      "technologies": ["Python", "OpenCV", "Image Processing", "Feature Extraction"],
+      "summary": "Agricultural computer vision pipeline that automatically analyzes plant leaf photographs to detect and classify crop diseases.",
+      "description": "Designed a digital image processing workflow in Python that ingests leaf images, executes color thresholding, contrast normalization, segmentation, and feature extraction to identify biological distress and disease patterns in agricultural crops.",
+      "highlights": [
+        "Automated leaf segmentation and defect isolation",
+        "Color-space conversion (RGB to HSV / Lab) for lesion detection",
+        "Provides farmers with early alerts to protect crop yield"
+      ],
+      "icon": "shield-check"
+    },
+    {
+      "id": 5,
+      "title": "Temperature & Humidity Monitoring System & Web App",
+      "category": "IoT & Web Systems",
+      "technologies": ["ESP8266", "DHT11 / DHT22 Sensor", "Node.js / Express", "Real-Time Web UI"],
+      "summary": "End-to-end IoT atmospheric telemetry system streaming real-time temperature and humidity to a live web monitoring dashboard.",
+      "description": "Built a comprehensive environmental monitoring stack utilizing an ESP8266 Wi-Fi microcontroller reading precision temperature and humidity from digital sensors. The hardware sends telemetry payloads to an Express.js backend and real-time interactive UI with charts and threshold alerts.",
+      "highlights": [
+        "Continuous ambient atmospheric logging with sub-second responsiveness",
+        "Interactive web dashboard displaying real-time gauges and history logs",
+        "Automatic warning thresholds for high heat or extreme humidity"
+      ],
+      "icon": "thermometer"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Advance Social Psychology",
+      "issuer": "NPTEL (National Programme on Technology Enhanced Learning)",
+      "badge": "NPTEL Certified",
+      "category": "Psychology & Behavioral Sciences",
+      "description": "Mastery of advanced social dynamics, interpersonal cognition, persuasion, group decision-making, and behavioral patterns in professional and community ecosystems.",
+      "skillsAcquired": ["Social Dynamics", "Behavioral Analysis", "Decision Theory", "Interpersonal Communication"]
+    },
+    {
+      "id": 2,
+      "title": "Mental Health and Wellbeing",
+      "issuer": "NPTEL (National Programme on Technology Enhanced Learning)",
+      "badge": "NPTEL Certified",
+      "category": "Wellbeing & Human Factors",
+      "description": "Deep understanding of mental wellness frameworks, stress management mechanisms, psychological resilience, mindfulness, and promoting supportive workplaces.",
+      "skillsAcquired": ["Stress Management", "Emotional Intelligence", "Mindfulness Practices", "Team Well-being"]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Appointment as Placement Co-ordinator",
+      "organization": "S.B. Jain Institute of Technology, Management and Research",
+      "icon": "briefcase",
+      "description": "Selected to coordinate institute placement initiatives, student training drives, recruiter liaisons, and technical readiness programs."
+    },
+    {
+      "title": "Executive Leadership in FEETA Forum",
+      "organization": "Forum of Electronics & Telecommunication Engineering Associates",
+      "icon": "award",
+      "description": "Elected as Treasurer and previously served 1 full year as Joint PRO Head, managing forum finances, student governance, and technical events."
+    },
+    {
+      "title": "High Honors Academic Record",
+      "organization": "Maharashtra State Boards",
+      "icon": "trophy",
+      "description": "Achieved 86.40% in SSC Boards (Shri. Rajendra High School) and 75.17% in HSC Science Boards (Smt. C.B. Adarsh Vidya Mandir)."
+    },
+    {
+      "title": "Multi-Architecture Embedded Engineering Projects",
+      "organization": "Technical Project Demonstrations",
+      "icon": "cpu",
+      "description": "Successfully prototyped 5 distinct hardware/software integrated systems spanning Arduino, ESP8266, 8051, Raspberry Pi, and Python vision."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Treasurer",
+      "organization": "FEETA Forum (Forum of Electronics and Telecommunication Engineering Associates)",
+      "period": "Current (Active)",
+      "type": "Leadership Position",
+      "responsibilities": [
+        "Overseeing student forum annual budgets, financial records, and operational expenditures for departmental events.",
+        "Allocating funds for workshops, technical seminars, guest lectures, and student hackathons.",
+        "Collaborating with department faculty advisors and council members to ensure transparent governance."
+      ]
+    },
+    {
+      "role": "Joint PRO Head (Public Relations Officer)",
+      "organization": "FEETA Forum",
+      "period": "1 Year Tenure",
+      "type": "Leadership & Outreach",
+      "responsibilities": [
+        "Directed department public relations, social media communications, and student outreach campaigns.",
+        "Spearheaded announcements, event promotions, and inter-collegiate student participation.",
+        "Strengthened member engagement and cross-departmental collaboration across campus."
+      ]
+    },
+    {
+      "role": "Placement Co-ordinator",
+      "organization": "S.B. Jain Institute of Technology, Management and Research, Nagpur",
+      "period": "Active Appointment",
+      "type": "Institute Coordination",
+      "responsibilities": [
+        "Assisting the Central Training & Placement Cell in conducting campus recruitment drives.",
+        "Guiding fellow engineering peers with resume vetting, placement preparation, and technical interview drills.",
+        "Facilitating smooth communication between visiting corporate recruiters and student candidates."
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Triveni Kamlesh Naik",
+    "email": "ntriveni959@gmail.com",
+    "phone": "9699116908",
+    "phoneFormatted": "+91 96991 16908",
+    "address": "Naik talav, Bangladesh, Near police Station, Nagpur.",
+    "location": "Nagpur, Maharashtra, India",
+    "linkedin": "https://www.linkedin.com/in/triveni-naik-9273613a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "https://github.com/triveni-naik09"
+  }
+}

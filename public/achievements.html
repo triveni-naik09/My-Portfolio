@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achievements | Triveni Naik Portfolio</title>
+  <meta name="description" content="Academic honors, leadership achievements, and milestones of Triveni Kamlesh Naik.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: ['class', '[data-theme="dark"]'],
+      theme: {
+        extend: {
+          colors: {
+            wine: { 950: '#120407', 900: '#1C070C', 800: '#2D0A14', 700: '#4A0E1C', 600: '#6B1426', 500: '#800020', 400: '#9B1D36', 300: '#B82E4B' },
+            champagne: { 100: '#FFFDF9', 200: '#FAF3EB', 300: '#F5E8D8', 400: '#E6C594', 500: '#D4AF37', 600: '#B8860B' }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="antialiased selection:bg-amber-400 selection:text-stone-900">
+
+  <div class="bg-ambient-layer" aria-hidden="true">
+    <div class="ambient-glow-1"></div>
+    <div class="ambient-glow-2"></div>
+    <div class="ambient-glow-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <div class="flex items-center gap-3 shrink-0">
+          <a href="index.html" class="flex items-center gap-2.5 group">
+            <span class="w-10 h-10 rounded-full border border-amber-300/40 bg-gradient-to-br from-amber-400/20 to-red-950/80 flex items-center justify-center font-serif font-bold text-amber-200 text-lg shadow-md group-hover:border-amber-300 group-hover:scale-105 transition-all">TN</span>
+            <div class="hidden sm:block">
+              <span class="font-serif font-bold text-base tracking-wide text-stone-100 group-hover:text-amber-300 transition">Triveni Naik</span>
+              <span class="block text-[10px] text-amber-200/80 uppercase tracking-widest font-sans font-semibold">Portfolio Hub</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="text-center px-2">
+          <div class="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded-full border border-amber-300/25 bg-black/20 shadow-inner">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span class="font-serif italic text-xs sm:text-sm md:text-base font-semibold text-amber-100 tracking-wide">
+              Welcome to Triveni's portfolio
+            </span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 shrink-0">
+          <button type="button" aria-label="Toggle Theme" class="theme-toggle-btn p-2 rounded-full border border-amber-300/20 bg-black/30 hover:border-amber-400 transition text-amber-200 hover:text-amber-100" title="Toggle Light / Dark Mode">
+            <span class="theme-icon">
+              <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            </span>
+          </button>
+          <a href="/assets/Triveni_Naik_Resume.pdf" download="Triveni_Naik_Resume.pdf" class="hidden md:inline-flex btn-gold text-xs px-4 py-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            <span>Resume</span>
+          </a>
+          <button type="button" id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-amber-200 hover:text-white border border-amber-300/20" aria-label="Toggle Mobile Menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Nav Links Bar -->
+      <nav class="hidden md:flex items-center justify-center gap-6 py-2 border-t border-white/5 text-xs font-medium text-stone-300 tracking-wider uppercase">
+        <a href="index.html" class="hover:text-amber-300 transition py-1">Dashboard</a>
+        <a href="personal-info.html" class="hover:text-amber-300 transition py-1">Personal Info</a>
+        <a href="education.html" class="hover:text-amber-300 transition py-1">Education</a>
+        <a href="skills.html" class="hover:text-amber-300 transition py-1">Skills</a>
+        <a href="projects.html" class="hover:text-amber-300 transition py-1">Projects</a>
+        <a href="certificates.html" class="hover:text-amber-300 transition py-1">Certificates</a>
+        <a href="achievements.html" class="text-amber-300 font-bold border-b border-amber-300 pb-0.5">Achievements</a>
+        <a href="experience.html" class="hover:text-amber-300 transition py-1">Experience</a>
+        <a href="contact.html" class="hover:text-amber-300 transition py-1">Contact</a>
+      </nav>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobile-menu" class="hidden md:hidden py-4 border-t border-white/10 space-y-2 bg-wine-950/95 px-2 rounded-b-2xl shadow-2xl">
+        <a href="index.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Dashboard</a>
+        <a href="personal-info.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Personal Info</a>
+        <a href="education.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Education</a>
+        <a href="skills.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Skills</a>
+        <a href="projects.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Projects</a>
+        <a href="certificates.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Certificates</a>
+        <a href="achievements.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm bg-wine-800 text-amber-300 font-bold">Achievements</a>
+        <a href="experience.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Experience</a>
+        <a href="contact.html" class="mobile-nav-link block px-3 py-2 rounded-lg text-sm text-stone-200 hover:bg-wine-800 hover:text-amber-300">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="relative z-10 pt-28 sm:pt-36 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    
+    <!-- Breadcrumb & Back Link -->
+    <div class="flex items-center justify-between mb-8 pb-4 border-b border-white/10">
+      <div class="flex items-center gap-2 text-xs sm:text-sm text-stone-400">
+        <a href="index.html" class="hover:text-amber-300 transition">Dashboard</a>
+        <span>/</span>
+        <span class="text-amber-300 font-medium">Achievements</span>
+      </div>
+      <a href="index.html" class="btn-outline text-xs px-3.5 py-1.5 inline-flex items-center gap-1.5">
+        <span>← Back to Dashboard</span>
+      </a>
+    </div>
+
+    <!-- Section Heading -->
+    <div class="text-center max-w-3xl mx-auto mb-14 space-y-2">
+      <span class="badge-gold">Key Milestones</span>
+      <h1 class="text-3xl sm:text-5xl font-bold font-serif text-amber-100">
+        Recognitions & <span class="bg-gradient-to-r from-amber-200 via-amber-300 to-amber-100 bg-clip-text text-transparent">Achievements</span>
+      </h1>
+      <p class="text-stone-300 text-sm sm:text-base">
+        Notable leadership responsibilities, academic board percentiles, and engineering demonstrations.
+      </p>
+    </div>
+
+    <!-- 4 Detailed Achievement Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+
+      <!-- Achievement 1: Placement Coordinator -->
+      <div class="glass-panel p-8 space-y-4 border-t-4 border-t-amber-400">
+        <div class="flex items-center justify-between">
+          <span class="badge-gold text-xs">Institute Responsibility</span>
+          <span class="text-xs font-mono text-amber-200 font-semibold">Active</span>
+        </div>
+        <h2 class="text-2xl font-bold font-serif text-white">
+          Appointed Placement Co-ordinator
+        </h2>
+        <p class="text-xs text-amber-200/90 font-medium">
+          S.B. Jain Institute of technology, Management and Research, Nagpur
+        </p>
+        <p class="text-stone-200 text-sm leading-relaxed">
+          Chosen to coordinate official campus recruitment initiatives, organize technical aptitude tests, arrange mock technical interviews, and guide peer engineering students toward corporate placement readiness.
+        </p>
+      </div>
+
+      <!-- Achievement 2: FEETA Forum Executive Leadership -->
+      <div class="glass-panel p-8 space-y-4 border-t-4 border-t-wine-400">
+        <div class="flex items-center justify-between">
+          <span class="badge-wine text-xs">Executive Leadership</span>
+          <span class="text-xs font-mono text-amber-200 font-semibold">Elected Council</span>
+        </div>
+        <h2 class="text-2xl font-bold font-serif text-white">
+          FEETA Forum Financial & PR Leadership
+        </h2>
+        <p class="text-xs text-amber-200/90 font-medium">
+          Treasurer (Current) & Former Joint PRO Head (1 Year)
+        </p>
+        <p class="text-stone-200 text-sm leading-relaxed">
+          Elected as Treasurer overseeing annual student council budgets, funding approvals, and financial bookkeeping for departmental symposiums. Previously completed a full 1-year tenure as Joint PRO Head, expanding student participation in technical fests.
+        </p>
+      </div>
+
+      <!-- Achievement 3: Board Examination Distinctions -->
+      <div class="glass-panel p-8 space-y-4 border-t-4 border-t-amber-400">
+        <div class="flex items-center justify-between">
+          <span class="badge-gold text-xs">Scholastic Merit</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">86.40% & 75.17%</span>
+        </div>
+        <h2 class="text-2xl font-bold font-serif text-white">
+          Consistent High Honors in State Boards
+        </h2>
+        <p class="text-xs text-amber-200/90 font-medium">
+          SSC (86.40%) & HSC (75.17%) • Nagpur, Maharashtra
+        </p>
+        <p class="text-stone-200 text-sm leading-relaxed">
+          Achieved 86.40% in 10th SSC board examinations from Shri. Rajendra High School, Mahal, Nagpur, followed by 75.17% in 12th HSC Science board examinations from Smt. C.B. Adarsh Vidya Mandir, Nagpur.
+        </p>
+      </div>
+
+      <!-- Achievement 4: 5 Working Prototypes -->
+      <div class="glass-panel p-8 space-y-4 border-t-4 border-t-wine-400">
+        <div class="flex items-center justify-between">
+          <span class="badge-wine text-xs">Embedded & IoT Systems</span>
+          <span class="text-xs font-mono text-amber-200 font-semibold">5 Systems</span>
+        </div>
+        <h2 class="text-2xl font-bold font-serif text-white">
+          Hands-on Hardware & Software Innovation
+        </h2>
+        <p class="text-xs text-amber-200/90 font-medium">
+          Arduino, ESP8266, AT89C51, Raspberry Pi & OpenCV
+        </p>
+        <p class="text-stone-200 text-sm leading-relaxed">
+          Successfully designed and tested 5 distinct engineering systems, including multi-controller traffic synchronization, automated toll barriers, IoT home relays, computer vision leaf pathology, and real-time atmospheric telemetry web dashboards.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Navigation between pages -->
+    <div class="flex items-center justify-between pt-6 border-t border-white/10 max-w-5xl mx-auto">
+      <a href="certificates.html" class="btn-outline text-xs">
+        ← Certificates Page
+      </a>
+      <a href="experience.html" class="btn-gold text-xs">
+        Next: Experience →
+      </a>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-white/10 bg-wine-950/80 py-10 relative z-10 text-center space-y-3">
+    <p class="text-sm sm:text-base text-stone-300 font-medium">
+      Developed with love <span class="animated-heart" aria-label="love">❤️</span> by Triveni Naik. All rights reserved.
+    </p>
+    <p class="text-xs text-stone-500">
+      B.Tech in Electronics & Telecommunication Engineering • S.B. Jain Institute of Technology, Nagpur
+    </p>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
